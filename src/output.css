@@ -5492,6 +5492,18 @@
   .max-w-7xl {
     max-width: var(--container-7xl);
   }
+  .max-w-10 {
+    max-width: calc(var(--spacing) * 10);
+  }
+  .max-w-100 {
+    max-width: calc(var(--spacing) * 100);
+  }
+  .max-w-360 {
+    max-width: calc(var(--spacing) * 360);
+  }
+  .max-w-1000 {
+    max-width: calc(var(--spacing) * 1000);
+  }
   .max-w-none {
     max-width: none;
   }
