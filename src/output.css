@@ -5315,6 +5315,9 @@
       font-size: 0.6875rem;
     }
   }
+  .h-10 {
+    height: calc(var(--spacing) * 10);
+  }
   .h-screen {
     height: 100vh;
   }
@@ -5426,8 +5429,14 @@
   .loading-xs {
     width: calc(var(--size-selector, 0.25rem) * 4);
   }
+  .w-1 {
+    width: calc(var(--spacing) * 1);
+  }
   .w-1\/2 {
     width: calc(1/2 * 100%);
+  }
+  .w-10 {
+    width: calc(var(--spacing) * 10);
   }
   .w-screen {
     width: 100vw;
@@ -5608,6 +5617,9 @@
       outline: 2px solid currentColor;
       outline-offset: 2px;
     }
+  }
+  .cursor-pointer {
+    cursor: pointer;
   }
   .touch-pinch-zoom {
     --tw-pinch-zoom: pinch-zoom;
@@ -5940,6 +5952,9 @@
   }
   .justify-items-stretch {
     justify-items: stretch;
+  }
+  .gap-2 {
+    gap: calc(var(--spacing) * 2);
   }
   .space-y-reverse {
     :where(& > :not(:last-child)) {
@@ -6781,6 +6796,9 @@
   .bg-origin-padding {
     background-origin: padding-box;
   }
+  .fill-current {
+    fill: currentColor;
+  }
   .fill-none {
     fill: none;
   }
@@ -7493,6 +7511,9 @@
   }
   .progress-warning {
     color: var(--color-warning);
+  }
+  .text-base-content {
+    color: var(--color-base-content);
   }
   .capitalize {
     text-transform: capitalize;
